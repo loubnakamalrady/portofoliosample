@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(171, 136, 117);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 232, 214,0.2);
+}
+.main_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftside_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+}
+
+#buttons{
+    text-decoration: none;
+}
+
+.middlediv{
+    display: flex;
+    flex-direction: row;
+}
+
+.rightside_nav{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+
+}
+
+.middleside_nav{
+    display: flex;
+    align-items: center;
+    margin-right: 115px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+
+}
+
+#buttons{
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.leftsided_div{
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 20%;
+    font-size: 20px;
+    height: 600px;
+    margin-left: 20px;
+}
+
+.righthanded-div{
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 70%;
+    font-size: 25px;
+    height: 600px;
+    margin-left: 20px;
+}

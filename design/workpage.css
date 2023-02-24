@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(171, 136, 117);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 232, 214,0.2);
+}
+.main_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftside_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+}
+
+#buttons{
+    text-decoration: none;
+}
+
+.rightside_nav{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+
+}
+
+.middleside_nav{
+    display: flex;
+    align-items: center;
+    margin-right: 115px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+}
+
+#buttons{
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.middlediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    color: rgba(71, 70, 70, 0.8);
+    font-size: 25px;
+}
+
+.workdiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: linear-gradient(rgba(250, 237, 205,0.5),rgba(254, 250, 224,0.3));
+}
+
+.qr_div{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.car_div{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.cr-cls{
+    width: 300px;
+    height: 200px;
+}
+
+.img-cls{
+    width: 190px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.moreinfo{
+    background-image: linear-gradient(rgba(255,255,255,0.4),rgba(255,225,233,0.3));
+    border-radius: 25px;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(60, 58, 58);
+    font-family: 'Heebo', sans-serif;
+    font-weight: 550;
+}

@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(171, 136, 117);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 232, 214,0.2);
+} 
+
+
+.main_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftside_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+}
+
+#buttons{
+    text-decoration: none;
+}
+
+.rightside_nav{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+
+}
+
+.middleside_nav{
+    display: flex;
+    align-items: center;
+    margin-right: 115px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+}
+
+#buttons{
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.middlediv{
+    width: 100%;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+}
+
+.socialbtns{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    
+}
+
+.sclbtns{
+    border-radius: 90px;
+    border: 0;
+}
+
+.namesec{
+    display: flex;
+    justify-content: center;
+}
+
+.discriptionsec{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.frontendimg{
+    display: flex;
+    justify-content: center;
+}
+
+.prtfliobtn{
+    border-radius: 50px;
+    padding: 30px;
+    border: 0;
+    font-size: large;
+    background-image: linear-gradient(rgb(181, 145, 122),rgb(255, 232, 214));
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    color: rgba(148, 131, 118, 0.8);
+}
+
+.infobtn{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    
+}
