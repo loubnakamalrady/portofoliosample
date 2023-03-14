@@ -11,8 +11,7 @@ header{
     background-color: rgba(255, 232, 214,0.2);
 }
 .main_nav{
-    display: flex;
-    flex-direction: row;
+    display: inline;
     justify-content: space-between;
 }
 
@@ -20,7 +19,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
@@ -32,16 +31,16 @@ header{
     display: flex;
     align-items: center;
     padding-right: 30px;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 
 }
 
 .middleside_nav{
-    display: flex;
+    display: inline;
     align-items: center;
     margin-right: 115px;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
